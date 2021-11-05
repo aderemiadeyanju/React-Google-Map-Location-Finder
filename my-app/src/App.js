@@ -9,11 +9,11 @@ import {
   withGoogleMap,
   GoogleMap,
   Marker,
-} from "react-google-maps";
+} from "react-google-maps"
 import Geocode from "react-geocode";
 import { Descriptions } from 'antd';
 import AutoComplete from 'react-google-autocomplete';
-Geocode.setApiKey("AIzaSyAzoWCEe70nH_z2NnBAZ_SubR0dbPq2zRI")
+Geocode.setApiKey("process.env.REACT_APP_API_KEY")
 
 class App extends  React.Component {
 
